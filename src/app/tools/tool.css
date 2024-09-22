@@ -1,0 +1,61 @@
+/* Style for the file drop area */
+.file-drop-area {
+    border: 2px dashed #ccc; /* Dotted border */
+    border-radius: 0.5rem;
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 1rem;
+  }
+  
+  .file-drop-area.highlight {
+    border-color: #09f; /* Change border color on hover/drag over */
+  }
+  
+  .file-drop-area p {
+    margin: 0;
+  }
+  
+  /* Style for the input (hidden) */
+  .file-input {
+    display: none;
+  }
+  
+  /* Style for the Convert button */
+  .convert-button {
+    background-color: white; /* Blue color */
+    color: #007bff;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .convert-button:disabled {
+    background-color: #ccc; /* Gray out when disabled */
+    cursor: not-allowed;
+  }
+
+  .file-drop-area, 
+  .selected-files {
+    width: 80%; /* Adjust as needed */
+    margin-left: auto;
+    margin-right: auto; 
+  } 
+  
+  .selected-files ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .selected-files button {
+    background: none;
+    border: none;
+    color: red;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
