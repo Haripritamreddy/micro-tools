@@ -21,6 +21,11 @@ export default function Home() {
       title: 'WebP to JPEG',
       description: 'Convert WebP images to JPEG format.',
       link: '/tools/image/webp-to-jpeg',
+    },
+    {
+      title: 'Image Resizer',
+      description: 'Resize images to any size.',
+      link: '/tools/image/resize-image',
     }
   ];
 
